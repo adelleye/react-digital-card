@@ -1,0 +1,165 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-card-bg {
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-card {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 780px;
+  border-radius: 10px 10px;
+  position: relative;
+}
+
+.digital-card-img {
+  width: 317px;
+  height: 317px;
+  background-image: url(./images/profile-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.digital-card-main {
+  padding: 20px 36px;
+}
+
+.digital-card-main > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.digital-card-main > h3 {
+  margin: 0;
+  padding: 16px 0 0 0;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.digital-card-main > h5 {
+  margin: 0;
+  padding: 4px 0 0 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(243, 191, 153, 1);
+}
+
+.digital-card-main > p {
+  margin: 0;
+  padding: 4px 0 0 0;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #dcdcdc;
+}
+
+.website {
+  text-align: center;
+}
+.digital-card-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 16px 0;
+}
+
+button {
+  width: 115px;
+  height: 34px;
+  padding: 9px 12px 9px 12px;
+  border-radius: 6px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.emailButton {
+  margin-right: 16px;
+}
+
+.icon-wrapper {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.linkedinButton {
+  background-color: rgba(80, 147, 226, 1);
+  color: white;
+}
+
+.linkedinIcon {
+  width: 13px;
+  height: 13px;
+  background-color: yellow;
+}
+
+.digital-card-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #161619;
+  width: 317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digital-card-footer > a:not(:last-child) {
+  margin-right: 24px;
+}
+
+.social-links {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 2px;
+}
